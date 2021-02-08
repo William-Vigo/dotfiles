@@ -8,11 +8,16 @@
     ~/.zshrc:
     ~/.gitconfig:
     ~/.oh-my-zsh:
+    ~/.p10k.zsh:
 
 - shell:
   #- [git submodule update --init --recursive, Installing submodules]
     - 
         command: scripts/create-meslo-font.zsh
+        stdout: true
+        stderr: true
+    -
+        command: scripts/install-color-ls.zsh
         stdout: true
         stderr: true
 
