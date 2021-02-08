@@ -6,7 +6,7 @@
 
 - link:
     ~/.zshrc:
-    ~/.gitconfig:
+    #~/.gitconfig:
     ~/.oh-my-zsh:
     ~/.p10k.zsh:
 
