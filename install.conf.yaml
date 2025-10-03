@@ -17,10 +17,6 @@
         stdout: true
         stderr: true
     -
-        command: scripts/install-color-ls.zsh
-        stdout: true
-        stderr: true
-    -
         command: scripts/clone-plugins.zsh
         stdout: true
         stderr: true
